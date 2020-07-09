@@ -1,0 +1,44 @@
+title: Today I learned
+email: lets@populate.tools
+description: Tips and tricks from the daily flowing
+baseurl: "" 
+url: "https://til.populate.tools"
+
+social_sharing: true
+github_username:  populatetools
+google_analytic_id:
+disqus_name:
+permalink: /:year/:month/:day/:title:output_ext
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num.html'
+  title: ':title - page :num'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+  tags:
+    title: 'Posts tagged with :tag'
+  collections:
+    title: 'Posts in collection :coll'
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+  layout: archive
+
+# jekyll seo tag settings
+logo: assets/images/logo.png
+twitter:
+  username: populate_
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
