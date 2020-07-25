@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Detect CSV file encoding in Ruby with Charlock Holmes"
-date:   2020-07-05 12:15:49 +0700
+date:   2020-07-25 12:15:49 +0700
 author: blat
 tags:
 - ruby
