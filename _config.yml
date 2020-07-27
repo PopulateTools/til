@@ -42,3 +42,15 @@ twitter:
 markdown: kramdown
 sass:
   style: compressed
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    posts:
+      published: false
+      sitemap: false
+      layout: post
+      title:
+      date:
+      author:
+      tags:
